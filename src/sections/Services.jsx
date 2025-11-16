@@ -15,7 +15,7 @@ const services = [
     desc: "HIIT, Yoga, Spin, Bootcamp.",
   },
   {
-    img: "https://images.unsplash.com/photo-1583454118552-9d8db09be02d?w=800",
+    img: "https://forzaft.com/wp-content/uploads/2025/03/unnamed.jpg",
     title: "Nutrition Plans",
     desc: "Custom meal plans & tracking.",
   },

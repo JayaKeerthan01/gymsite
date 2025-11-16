@@ -36,3 +36,26 @@
     transform: rotate(360deg);
   }
 }
+input[type="range"] {
+  -webkit-appearance: none;
+  appearance: none;
+  background: transparent;
+  cursor: ew-resize;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 48px;
+  height: 48px;
+  background: transparent;
+  cursor: ew-resize;
+}
+
+input[type="range"]::-moz-range-thumb {
+  width: 48px;
+  height: 48px;
+  background: transparent;
+  border: none;
+  cursor: ew-resize;
+}

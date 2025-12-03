@@ -1,24 +1,28 @@
 import { motion } from "framer-motion";
 import { Dumbbell, Users, Clock } from "lucide-react";
+import DumBell from "../assests/images/Dumbell.avif";
+import ProTrainers from "../assests/images/ProTrainers.avif";
+import Access from "../assests/images/Access.avif";
+
 
 const features = [
   {
     title: "Elite Equipment",
     desc: "Top-tier machines from Rogue, Hammer Strength & Life Fitness.",
     icon: Dumbbell,
-    image: "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    image: DumBell,
   },
   {
     title: "Pro Trainers",
     desc: "Certified coaches with 10+ years of competitive experience.",
     icon: Users,
-    image: "https://plus.unsplash.com/premium_photo-1663050901483-ee8703cc8372?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    image: ProTrainers,
   },
   {
     title: "24/7 Access",
     desc: "Train anytime. No excuses. Full access for members.",
     icon: Clock,
-    image: "https://images.unsplash.com/photo-1517838277536-f5f99be501cd?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    image: Access,
   },
 ];
 

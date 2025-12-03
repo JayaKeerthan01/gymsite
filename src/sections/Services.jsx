@@ -2,20 +2,24 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
+import NutrtionPlan from "../assests/images/foods.jpg";
+import GroupClasses from "../assests/images/GroupClasses.jpg";
+import PersonalTraining from "../assests/images/PersonalTraining.jpg";
+
 
 const services = [
   {
-    img: "https://images.unsplash.com/photo-1605296867304-46d5465a13f1?w=800",
+    img: PersonalTraining,
     title: "Personal Training",
     desc: "1-on-1 coaching with elite trainers.",
   },
   {
-    img: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=800",
+    img: GroupClasses,
     title: "Group Classes",
     desc: "HIIT, Yoga, Spin, Bootcamp.",
   },
   {
-    img: "https://forzaft.com/wp-content/uploads/2025/03/unnamed.jpg",
+    img: NutrtionPlan,
     title: "Nutrition Plans",
     desc: "Custom meal plans & tracking.",
   },

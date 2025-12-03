@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { Phone, Mail, MapPin, Instagram, Facebook, Twitter } from "lucide-react";
 import CTAButton from "../components/CTAButton";
+import gymImg from "../assests/images/gym.avif"
 
 const socialLinks = [
   { Icon: Instagram, href: "https://instagram.com/alphagym", label: "Instagram" },
@@ -51,11 +52,11 @@ export default function Contact({ onJoinClick }) {
 
               <div className="space-y-6">
                 <InfoItem Icon={MapPin} pulse>
-                  <span className="text-gray-300">Andheri West, Mumbai, India</span>
+                  <span className="text-gray-300">Avadi, Chennai</span>
                 </InfoItem>
                 <InfoItem Icon={Phone}>
                   <a href="tel:+919876543210" className="text-gray-300 hover:text-red-500 transition-colors">
-                    +91 98765 43210
+                    +91 90807 35753
                   </a>
                 </InfoItem>
                 <InfoItem Icon={Mail}>
@@ -99,7 +100,7 @@ export default function Contact({ onJoinClick }) {
               {/* Mini Map (static) */}
               <div className="relative h-64 mb-6 rounded-2xl overflow-hidden">
                 <img
-                  src="https://images.unsplash.com/photo-1570545887596-2a6c4cbcf2ee?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                  src={gymImg}
                   alt="Alpha Gym Location"
                   className="w-full h-full object-cover"
                 />
